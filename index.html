@@ -620,6 +620,64 @@ tr:hover td{background:rgba(255,255,255,.025)}
     <div style="font-size:10px;color:#334155;margin-top:12px;line-height:1.6">⚠ 분산 조언(채권·non-US)은 이 포트 맨데이트 밖 — 대신 우리식 broadening = <b style="color:#10b981">MRCY·AMBA(비-capex 20%)가 유일한 패러다임 헤지</b>. capex 더 사려고 이 밸러스트를 줄이지 말 것. 위 3개 복귀 신호 중 2개+ 동시 = 포트 전체 리스크오프 검토(개별 킬신호보다 상위 트리거).</div>
   </div>
 
+  <!-- 정부 부서 영향 맵 — 정책이 곧 주가 드라이버인 종목들 -->
+  <div class="glass" style="border-radius:20px;padding:20px 22px;margin-bottom:20px;border:1px solid rgba(74,158,255,.13)">
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;flex-wrap:wrap">
+      <i class="fa-solid fa-landmark-dome" style="color:#4a9eff;font-size:13px"></i>
+      <span style="font-family:'Syne',sans-serif;font-size:14px;font-weight:700">정부 부서 영향 맵 — 정책이 곧 주가</span>
+      <span style="font-size:10px;color:#475569">내 종목에 실제 송신 경로 있는 부서만 · 클릭 시 시나리오 분석</span>
+    </div>
+    <div style="font-size:11px;color:#64748b;line-height:1.5;margin-bottom:14px">3개 종목(MRCY·RKLB·IONQ)은 자금원이 <b style="color:#4a9eff">시장이 아니라 "정부 지갑"</b> — 예산·정책이 직접 주가 드라이버. Fed·Treasury는 전 종목 동시(분산 불가), 나머지는 종목별 격리.</div>
+    <div style="display:flex;flex-direction:column;gap:8px">
+      <div onclick="runScenarioSim('Fed FOMC 점도표 매파 전환(2026 인하 0~1회) — 할인율 상승이 valuation gravity로 pre-profit 50%(NBIS·BE·RKLB·IONQ)와 고멀티플 2027버킷을 동시에 누르는 경로, 방어버킷 상대강도 분석')" style="cursor:pointer;display:flex;gap:10px;align-items:flex-start;padding:9px 12px;background:rgba(248,113,113,.05);border:1px solid rgba(248,113,113,.18);border-radius:9px;transition:background .15s" onmouseover="this.style.background='rgba(248,113,113,.1)'" onmouseout="this.style.background='rgba(248,113,113,.05)'">
+        <span style="font-size:10px;font-weight:700;color:#f87171;min-width:88px">🏛 Fed (FOMC)</span>
+        <span style="font-size:10px;color:#94a3b8;line-height:1.5;flex:1"><b style="color:#f87171">전 종목(분산불가)</b> · 금리→할인율→valuation gravity. 최상위 스위치. 감시: 6/16~17 점도표</span>
+      </div>
+      <div onclick="runScenarioSim('미 재무부 장기국채 발행 급증 + term premium 상승 — 재정우위(fiscal dominance)로 Fed 인하에도 장기금리 고착되는 시나리오. pre-profit 듀레이션 압축 + 희소성(BE·MRCY) 상대 검증의 바벨 분기 분석')" style="cursor:pointer;display:flex;gap:10px;align-items:flex-start;padding:9px 12px;background:rgba(248,113,113,.05);border:1px solid rgba(248,113,113,.18);border-radius:9px;transition:background .15s" onmouseover="this.style.background='rgba(248,113,113,.1)'" onmouseout="this.style.background='rgba(248,113,113,.05)'">
+        <span style="font-size:10px;font-weight:700;color:#f87171;min-width:88px">🏛 Treasury</span>
+        <span style="font-size:10px;color:#94a3b8;line-height:1.5;flex:1"><b style="color:#f87171">전 종목</b> · 국채발행→term premium→듀레이션 압축. "패러다임" 논쟁 진앙. 감시: 분기 입찰·적자/GDP</span>
+      </div>
+      <div onclick="runScenarioSim('상무부 BIS 對中 반도체 수출통제 강화/스냅백 — AI 칩 체인(CRDO·ALAB·NBIS)에 공급(미국산 수혜)과 수요(중국 매출 차단) 양날로 작용하는 경로, 메모리 포함 2차 파급 분석')" style="cursor:pointer;display:flex;gap:10px;align-items:flex-start;padding:9px 12px;background:rgba(251,191,36,.05);border:1px solid rgba(251,191,36,.18);border-radius:9px;transition:background .15s" onmouseover="this.style.background='rgba(251,191,36,.1)'" onmouseout="this.style.background='rgba(251,191,36,.05)'">
+        <span style="font-size:10px;font-weight:700;color:#fbbf24;min-width:88px">🏛 Commerce/BIS</span>
+        <span style="font-size:10px;color:#94a3b8;line-height:1.5;flex:1"><b style="color:#fbbf24">CRDO·ALAB·NBIS</b> · 對中 수출통제·CHIPS. <b>양날</b>(미국공급 수혜 ↔ 중국수요 차단). 감시: 통제 업데이트(비정기)</span>
+      </div>
+      <div onclick="runScenarioSim('미 국방예산(NDAA) 증액/삭감 + 우주군·AFRL 계약 방향 — MRCY backlog·RKLB 정부발사·IONQ 양자계약이 동시에 영향받는 경로. 평화 무드(이란 MOU) vs 재정확대 분기에서 방산예산 우선순위 분석')" style="cursor:pointer;display:flex;gap:10px;align-items:flex-start;padding:9px 12px;background:rgba(74,158,255,.05);border:1px solid rgba(74,158,255,.18);border-radius:9px;transition:background .15s" onmouseover="this.style.background='rgba(74,158,255,.1)'" onmouseout="this.style.background='rgba(74,158,255,.05)'">
+        <span style="font-size:10px;font-weight:700;color:#4a9eff;min-width:88px">🏛 DoD (국방)</span>
+        <span style="font-size:10px;color:#94a3b8;line-height:1.5;flex:1"><b style="color:#10b981">MRCY·RKLB·IONQ</b> · 예산·계약=<b>매출 그 자체</b>. AI capex와 독립 자금줄(분산 가치). 감시: NDAA(가을)</span>
+      </div>
+      <div onclick="runScenarioSim('에너지부 DoE 대출보증(LPO) + 데이터센터 전력정책 — BE 온사이트 연료전지 직계약 수요에 미치는 영향, 원전·SMR 정책과의 경쟁 구도 분석')" style="cursor:pointer;display:flex;gap:10px;align-items:flex-start;padding:9px 12px;background:rgba(16,185,129,.05);border:1px solid rgba(16,185,129,.18);border-radius:9px;transition:background .15s" onmouseover="this.style.background='rgba(16,185,129,.1)'" onmouseout="this.style.background='rgba(16,185,129,.05)'">
+        <span style="font-size:10px;font-weight:700;color:#10b981;min-width:88px">🏛 DoE (에너지)</span>
+        <span style="font-size:10px;color:#94a3b8;line-height:1.5;flex:1"><b style="color:#10b981">BE</b> · LPO 대출보증·DC 전력정책. 원전·SMR과 경쟁 구도. 감시: LPO 발표</span>
+      </div>
+      <div onclick="runScenarioSim('FERC 그리드 상호접속 대기열 개혁/패스트트랙 — 데이터센터 그리드 접속 대기 3~5년이 단축되면 BE 온사이트 발전의 긴급성이 약화되고 그리드 확장(변압기·터빈) 수혜로 이동하는 역설 분석. BE 테제의 숨은 규제 리스크')" style="cursor:pointer;display:flex;gap:10px;align-items:flex-start;padding:9px 12px;background:rgba(167,139,250,.05);border:1px solid rgba(167,139,250,.18);border-radius:9px;transition:background .15s" onmouseover="this.style.background='rgba(167,139,250,.1)'" onmouseout="this.style.background='rgba(167,139,250,.05)'">
+        <span style="font-size:10px;font-weight:700;color:#a78bfa;min-width:88px">🏛 FERC</span>
+        <span style="font-size:10px;color:#94a3b8;line-height:1.5;flex:1"><b style="color:#a78bfa">BE (숨은 리스크)</b> · 그리드 접속 대기열 = BE 병목 테제의 <b>규제적 원천</b>. 대기열 개혁 시 온사이트 긴급성↓. 과소평가됨</span>
+      </div>
+    </div>
+    <div style="font-size:10px;color:#334155;margin-top:12px;line-height:1.6">⚠ 핵심: MRCY·RKLB·IONQ는 "정부 지갑" 자금줄 → AI capex 상관과 독립(분산 가치, 숨은 연결고리 ③). 반대로 Fed·Treasury는 전 종목 동시 타격 = 분산 불가. <b style="color:#a78bfa">FERC는 가장 과소평가된 부서</b> — BE 테제가 규제(접속 대기열)에 의존한다는 걸 시장이 잘 안 봄.</div>
+  </div>
+
+  <!-- 달러 패권 ↔ 내 포트 커넥터 -->
+  <div class="glass" style="border-radius:20px;padding:20px 22px;margin-bottom:20px;border:1px solid rgba(201,168,76,.14)">
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;flex-wrap:wrap">
+      <i class="fa-solid fa-dollar-sign" style="color:#c9a84c;font-size:13px"></i>
+      <span style="font-family:'Syne',sans-serif;font-size:14px;font-weight:700">달러 패권 ↔ 내 포트</span>
+      <span style="font-size:10px;color:#475569">기축통화 유지 노력이 내 책에 닿는 2개 경로</span>
+    </div>
+    <div style="font-size:11px;color:#64748b;line-height:1.5;margin-bottom:14px">달러 준비자산 비중 71%→56%, 금이 국채 제치고 최대 준비자산. 미국의 패권 방어 수단 중 <b style="color:#c9a84c">내게 직접 의미 있는 건 둘</b>.</div>
+    <div style="display:flex;flex-direction:column;gap:9px">
+      <div style="padding:11px 13px;background:rgba(16,185,129,.04);border-left:3px solid #10b981;border-radius:9px">
+        <div style="font-size:11px;font-weight:700;color:#10b981;margin-bottom:3px">① 스테이블코인 국채 수요 = term premium 완충 (호재)</div>
+        <div style="font-size:10px;color:#94a3b8;line-height:1.6">GENIUS Act 등 스테이블코인 제도화 → USDC·USDT가 국채 담보 → <b>새 구조적 국채 매수처</b>. 내 최대 위협(term premium↑ → pre-profit 50% 압축)을 일부 상쇄. <span style="color:#64748b">감시: 스테이블코인 시총·국채 보유 증가 = 장기금리 상단 완화 신호</span></div>
+      </div>
+      <div style="padding:11px 13px;background:rgba(248,113,113,.04);border-left:3px solid #f87171;border-radius:9px">
+        <div style="font-size:11px;font-weight:700;color:#f87171;margin-bottom:3px">② "AI 우위 = 달러 해자" = 같은 뿌리 (국가급 상관 꼬리)</div>
+        <div style="font-size:10px;color:#94a3b8;line-height:1.6">달러의 진짜 토대 = 미국 생산성·AI 혁신 프리미엄. 내 불 케이스(AI 패러다임 참)가 곧 달러 패권 토대 → <b>정렬</b>. 단 역도 성립 — 미국 AI 주도권 상실 시 <b style="color:#f87171">내 종목↓ + 달러↓ + term premium↑ 삼중 동시</b>. 패러다임 의존성의 국가급 상위 버전.</div>
+      </div>
+    </div>
+    <div style="font-size:10px;color:#334155;margin-top:12px;line-height:1.6">⚠ 탈달러·금 매입 = "실물 희소성 프리미엄" 검증이나 금·BTC는 맨데이트 밖 → 내 희소성 헤지는 BE·MRCY로 충분. Fed 독립성 훼손(인하 압박)은 패권 방어의 자기모순 — 지키려는 신뢰를 깸 = term premium 상승 압력. 결론: 스테이블코인은 완충(호재), AI=달러 동조는 정렬이자 삼중 꼬리.</div>
+  </div>
+
   <!-- 금리 인과 체인 — 2차/3차 레벨 사고 프레임 -->
   <div class="glass" style="border-radius:20px;padding:20px 22px;margin-bottom:20px;border:1px solid rgba(167,139,250,.15)">
     <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;flex-wrap:wrap">
@@ -845,6 +903,31 @@ tr:hover td{background:rgba(255,255,255,.025)}
     </div>
   </div>
 
+  <!-- 월 그리드 캘린더 (실적·FOMC·CPI·이벤트 한눈) -->
+  <div class="glass" style="border-radius:16px;padding:18px 20px;margin-bottom:20px;border:1px solid rgba(74,158,255,.14)">
+    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:12px">
+      <div style="display:flex;align-items:center;gap:8px">
+        <i class="fa-solid fa-calendar-days" style="color:#4a9eff;font-size:14px"></i>
+        <span style="font-family:'Syne',sans-serif;font-size:15px;font-weight:700">이벤트 캘린더</span>
+        <span style="font-size:10px;color:#475569">실적·FOMC·CPI·내 이벤트 한눈</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:6px">
+        <button onclick="calMonthShift(-1)" class="btn-ghost" style="padding:4px 10px;font-size:13px">‹</button>
+        <span id="cal-month-label" class="mono" style="font-size:13px;font-weight:700;min-width:96px;text-align:center"></span>
+        <button onclick="calMonthShift(1)" class="btn-ghost" style="padding:4px 10px;font-size:13px">›</button>
+        <button onclick="calMonthShift(0)" class="btn-ghost" style="padding:4px 10px;font-size:11px">오늘</button>
+      </div>
+    </div>
+    <div id="earn-month-cal"></div>
+    <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:10px;font-size:10px">
+      <span style="color:#c9a84c">● 내 실적</span>
+      <span style="color:#f87171">● FOMC</span>
+      <span style="color:#fbbf24">● CPI</span>
+      <span style="color:#4a9eff">● 내 이벤트</span>
+      <span style="color:#a78bfa">● 하이퍼스케일러</span>
+    </div>
+  </div>
+
   <!-- D-day 카운트다운 바 (EARN_MAP 기반, 항상 표시) -->
   <div class="glass" style="border-radius:16px;padding:16px 20px;margin-bottom:20px;border:1px solid rgba(201,168,76,.12)" id="earn-dday-bar">
     <div style="font-size:11px;font-weight:700;letter-spacing:.1em;color:#c9a84c;text-transform:uppercase;margin-bottom:12px">📅 내 포트 실적 D-day 카운트다운</div>
@@ -860,6 +943,20 @@ tr:hover td{background:rgba(255,255,255,.025)}
     </div>
     <div style="font-size:11px;color:#64748b;line-height:1.5;margin-bottom:14px">같은 주에 2개+ 종목이 몰리면 — 특히 같은 버킷·자금줄이면 — 분산이 무력화된다(한 매크로 충격에 동시 노출). 린치: "여러 종목을 들었다고 분산된 게 아니다. 같은 이유로 움직이면 한 종목이다."</div>
     <div id="earn-cluster-timeline"></div>
+  </div>
+
+  <!-- 연준/거시 뉴스 피드 (Finnhub general) -->
+  <div class="glass" style="border-radius:16px;padding:18px 20px;margin-bottom:20px;border:1px solid rgba(248,113,113,.13)">
+    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:6px">
+      <div style="display:flex;align-items:center;gap:8px">
+        <i class="fa-solid fa-building-columns" style="color:#f87171;font-size:13px"></i>
+        <span style="font-family:'Syne',sans-serif;font-size:14px;font-weight:700">연준 · 거시 뉴스</span>
+        <span style="font-size:10px;color:#475569">Fed·금리·인플레·관세 키워드 필터</span>
+      </div>
+      <button onclick="fetchFedNews()" class="btn-ghost" style="font-size:11px;padding:5px 12px"><i class="fa-solid fa-rotate"></i> 불러오기</button>
+    </div>
+    <div style="font-size:10px;color:#475569;line-height:1.5;margin-bottom:10px">⚠ 헤드라인은 노이즈가 많다 — 단어가 아니라 <b style="color:#f87171">레짐 게이트(FOMC 점도표·CPI 코어·term premium)</b>를 봐라. 6월 4~5일 칩 급락처럼 capex 둔화 신호가 묻혀 있을 수 있음.</div>
+    <div id="fed-news-results" style="display:flex;flex-direction:column;gap:8px"><div style="color:#475569;font-size:12px;text-align:center;padding:14px">불러오기를 눌러 연준·거시 뉴스를 가져옵니다 (Finnhub 키 필요)</div></div>
   </div>
 
   <!-- 실적 후 스토리 갱신 체크리스트 (D-7 이내 또는 발표 직후 종목) -->
@@ -1363,6 +1460,67 @@ tr:hover td{background:rgba(255,255,255,.025)}
       </div>
     </div>
     <div style="font-size:10px;color:#334155;margin-top:10px;line-height:1.6">⚠ 점선 = 가설(검증 전). 막스 2차 레벨: 현재 병목(전력·연결)은 시장이 이미 안다 — 초과수익은 <b style="color:#fbbf24">다음 병목의 증거가 컨센서스가 되기 전</b>에 나온다. 관측 신호: 추론 API 단가 하락 둔화(엣지 압력↑), 하이퍼스케일러 "전력 확보 완료" 발언(현 병목 해소 신호 = 로테이션 임박).</div>
+  </div>
+
+  <!-- AI 자금 집중 맵 — 돈이 사슬 어디에 얼마나 고이는가 -->
+  <div class="glass" style="border-radius:18px;padding:20px 22px;margin-bottom:22px;border:1px solid rgba(16,185,129,.14)">
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;flex-wrap:wrap">
+      <i class="fa-solid fa-sack-dollar" style="color:#10b981;font-size:13px"></i>
+      <span style="font-family:'Syne',sans-serif;font-size:14px;font-weight:700">AI 자금 집중 맵 — 돈이 사슬 어디에 고이나</span>
+      <span style="font-size:10px;color:#475569">하이퍼스케일러 capex(~$650B/2026) 노드별 배분 · 정성 추정</span>
+    </div>
+    <div style="font-size:11px;color:#64748b;line-height:1.5;margin-bottom:14px">막대=상대 자금 규모(절대), 색=성장 속도. 핵심은 <b style="color:#10b981">"큰 풀 ≠ 빠른 풀"</b> — 돈이 가장 많이 고인 곳(GPU)과 가장 빨리 늘어나는 곳(전력·연결)은 다르다. ⭐=내 보유 위치.</div>
+    <div style="display:flex;flex-direction:column;gap:7px">
+      <div style="display:flex;align-items:center;gap:8px">
+        <span style="font-size:11px;color:#94a3b8;min-width:120px">GPU·가속기 <span style="font-size:9px;color:#475569">NVDA</span></span>
+        <div style="flex:1;height:18px;background:rgba(255,255,255,.04);border-radius:5px;overflow:hidden"><div style="width:40%;height:100%;background:linear-gradient(90deg,#fbbf2466,#fbbf24);display:flex;align-items:center;padding-left:6px;font-size:9px;color:#0a0f16;font-weight:700">40%</div></div>
+        <span style="font-size:9px;color:#fbbf24;min-width:88px">↑→ 둔화 우려</span>
+        <span style="font-size:9px;color:#475569;min-width:62px">미보유(메가캡)</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px">
+        <span style="font-size:11px;color:#94a3b8;min-width:120px">메모리·HBM <span style="font-size:9px;color:#475569">MU·SNDK</span></span>
+        <div style="flex:1;height:18px;background:rgba(255,255,255,.04);border-radius:5px;overflow:hidden"><div style="width:14%;height:100%;background:linear-gradient(90deg,#10b98166,#10b981);display:flex;align-items:center;padding-left:6px;font-size:9px;color:#0a0f16;font-weight:700">14%</div></div>
+        <span style="font-size:9px;color:#10b981;min-width:88px">↑↑↑ 급증</span>
+        <span style="font-size:9px;color:#475569;min-width:62px">의도적 미보유</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px">
+        <span style="font-size:11px;color:#94a3b8;min-width:120px">서버·조립 <span style="font-size:9px;color:#475569">DELL·SMCI</span></span>
+        <div style="flex:1;height:18px;background:rgba(255,255,255,.04);border-radius:5px;overflow:hidden"><div style="width:11%;height:100%;background:linear-gradient(90deg,#84cc1666,#84cc16);display:flex;align-items:center;padding-left:6px;font-size:9px;color:#0a0f16;font-weight:700">11%</div></div>
+        <span style="font-size:9px;color:#84cc16;min-width:88px">↑↑</span>
+        <span style="font-size:9px;color:#475569;min-width:62px">미보유</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;background:rgba(201,168,76,.06);border-radius:6px;padding:2px 4px">
+        <span style="font-size:11px;color:#e2e8f0;font-weight:700;min-width:116px">⭐ 광학·연결 <span style="font-size:9px;color:#c9a84c">ALAB·CRDO</span></span>
+        <div style="flex:1;height:18px;background:rgba(255,255,255,.04);border-radius:5px;overflow:hidden"><div style="width:9%;height:100%;background:linear-gradient(90deg,#10b98166,#10b981);display:flex;align-items:center;padding-left:6px;font-size:9px;color:#0a0f16;font-weight:700">9%</div></div>
+        <span style="font-size:9px;color:#10b981;min-width:88px">↑↑↑ 가속</span>
+        <span style="font-size:9px;color:#c9a84c;font-weight:700;min-width:62px">⭐ 보유</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;background:rgba(201,168,76,.06);border-radius:6px;padding:2px 4px">
+        <span style="font-size:11px;color:#e2e8f0;font-weight:700;min-width:116px">⭐ 전력·에너지 <span style="font-size:9px;color:#c9a84c">BE·GEV</span></span>
+        <div style="flex:1;height:18px;background:rgba(255,255,255,.04);border-radius:5px;overflow:hidden"><div style="width:9%;height:100%;background:linear-gradient(90deg,#10b98166,#10b981);box-shadow:0 0 8px #10b98155;display:flex;align-items:center;padding-left:6px;font-size:9px;color:#0a0f16;font-weight:700">9%</div></div>
+        <span style="font-size:9px;color:#10b981;min-width:88px">↑↑↑ <b>최고속</b></span>
+        <span style="font-size:9px;color:#c9a84c;font-weight:700;min-width:62px">⭐ 보유</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px">
+        <span style="font-size:11px;color:#94a3b8;min-width:120px">네트워크 ASIC <span style="font-size:9px;color:#475569">AVGO·MRVL</span></span>
+        <div style="flex:1;height:18px;background:rgba(255,255,255,.04);border-radius:5px;overflow:hidden"><div style="width:8%;height:100%;background:linear-gradient(90deg,#84cc1666,#84cc16);display:flex;align-items:center;padding-left:6px;font-size:9px;color:#0a0f16;font-weight:700">8%</div></div>
+        <span style="font-size:9px;color:#84cc16;min-width:88px">↑↑</span>
+        <span style="font-size:9px;color:#475569;min-width:62px">미보유(메가캡)</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;background:rgba(201,168,76,.06);border-radius:6px;padding:2px 4px">
+        <span style="font-size:11px;color:#e2e8f0;font-weight:700;min-width:116px">⭐ 클라우드·추론 <span style="font-size:9px;color:#c9a84c">NBIS</span></span>
+        <div style="flex:1;height:18px;background:rgba(255,255,255,.04);border-radius:5px;overflow:hidden"><div style="width:6%;height:100%;background:linear-gradient(90deg,#10b98166,#10b981);display:flex;align-items:center;padding-left:6px;font-size:9px;color:#0a0f16;font-weight:700">6%</div></div>
+        <span style="font-size:9px;color:#10b981;min-width:88px">↑↑</span>
+        <span style="font-size:9px;color:#c9a84c;font-weight:700;min-width:62px">⭐ 보유</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px">
+        <span style="font-size:11px;color:#94a3b8;min-width:120px">냉각 <span style="font-size:9px;color:#475569">VRT</span></span>
+        <div style="flex:1;height:18px;background:rgba(255,255,255,.04);border-radius:5px;overflow:hidden"><div style="width:3%;height:100%;background:linear-gradient(90deg,#84cc1666,#84cc16)"></div></div>
+        <span style="font-size:9px;color:#84cc16;min-width:88px">↑↑</span>
+        <span style="font-size:9px;color:#475569;min-width:62px">미보유</span>
+      </div>
+    </div>
+    <div style="font-size:10px;color:#334155;margin-top:12px;line-height:1.6">⚠ 정성 추정(예시). 통찰: 돈은 <b style="color:#fbbf24">GPU(40%)</b>에 가장 많이 고이나 둔화 우려 — 내 미보유(메가캡 맨데이트 밖). <b style="color:#10b981">성장 속도 1위는 전력·연결(내 포지션)</b>. 내 보유 3노드(광학연결9+전력9+클라우드6)는 사슬 자금의 ~24% 구간 — 절대규모 작아도 가속 구간. 막스: 알파는 큰 풀이 아니라 <b>가속이 컨센서스 되기 전</b>의 풀에서. 메모리(14%, 급증)는 해자 내구성 이유로 의도적 미보유(MU 렌즈).</div>
   </div>
 
   <!-- 숨은 연결고리 — 포트 내부 공급망 도미노 -->
@@ -4263,8 +4421,77 @@ window.earnChecklistSet=function(key,k,v){
   renderEarnUpdateChecklist();
 };
 
+/* ─── 월 그리드 캘린더 ─── */
+/* 2026 주요 거시 일정 (추정·고영향) */
+const CAL_MACRO={
+  '2026-01-28':{t:'FOMC',k:'fomc'},'2026-03-18':{t:'FOMC',k:'fomc'},'2026-04-29':{t:'FOMC',k:'fomc'},
+  '2026-06-17':{t:'FOMC',k:'fomc'},'2026-07-29':{t:'FOMC',k:'fomc'},'2026-09-16':{t:'FOMC',k:'fomc'},
+  '2026-10-28':{t:'FOMC',k:'fomc'},'2026-12-16':{t:'FOMC',k:'fomc'},
+  '2026-06-10':{t:'CPI',k:'cpi'},'2026-07-14':{t:'CPI',k:'cpi'},'2026-08-12':{t:'CPI',k:'cpi'},
+  '2026-09-11':{t:'CPI',k:'cpi'},'2026-10-13':{t:'CPI',k:'cpi'},
+};
+const CAL_HYPER={'2026-07-22':'GOOGL','2026-07-23':'META','2026-07-29':'MSFT','2026-07-30':'AMZN'};
+let calOffset=0; /* 0=이번달 */
+function calMonthShift(d){ calOffset = d===0 ? 0 : calOffset+d; renderMonthCalendar(); }
+function renderMonthCalendar(){
+  const el=document.getElementById('earn-month-cal'); if(!el)return;
+  const base=new Date(); base.setDate(1); base.setMonth(base.getMonth()+calOffset);
+  const y=base.getFullYear(), mo=base.getMonth();
+  const lbl=document.getElementById('cal-month-label'); if(lbl)lbl.textContent=`${y}.${String(mo+1).padStart(2,'0')}`;
+  const first=new Date(y,mo,1), startDow=first.getDay(), days=new Date(y,mo+1,0).getDate();
+  const todayStr=new Date().toISOString().slice(0,10);
+  const earnMap=typeof EARN_MAP_R!=='undefined'?EARN_MAP_R:{};
+  const held=(typeof portfolio!=='undefined'?portfolio:[]).map(h=>h.ticker);
+  /* 날짜→이벤트 수집 */
+  const ev={};
+  const add=(d,html)=>{(ev[d]=ev[d]||[]).push(html);};
+  Object.keys(earnMap).forEach(tk=>{ if(held.length&&!held.includes(tk))return; const d=earnMap[tk].date; add(d,`<span style="color:#c9a84c;font-weight:700">${tk}</span>`); });
+  Object.keys(CAL_MACRO).forEach(d=>{ const m=CAL_MACRO[d]; add(d,`<span style="color:${m.k==='fomc'?'#f87171':'#fbbf24'};font-weight:700">${m.t}</span>`); });
+  Object.keys(CAL_HYPER).forEach(d=>add(d,`<span style="color:#a78bfa">${CAL_HYPER[d]}</span>`));
+  (typeof macroEvents!=='undefined'?macroEvents:[]).forEach(m=>{ if(m.date&&m.date.slice(0,7)===`${y}-${String(mo+1).padStart(2,'0')}`)add(m.date,`<span style="color:#4a9eff">${(m.title||'').slice(0,10)}</span>`); });
+  const dow=['일','월','화','수','목','금','토'];
+  let html='<div style="display:grid;grid-template-columns:repeat(7,1fr);gap:3px">';
+  dow.forEach((d,i)=>html+=`<div style="text-align:center;font-size:9px;color:${i===0?'#f87171':i===6?'#4a9eff':'#475569'};padding:2px">${d}</div>`);
+  for(let i=0;i<startDow;i++)html+='<div></div>';
+  for(let day=1;day<=days;day++){
+    const ds=`${y}-${String(mo+1).padStart(2,'0')}-${String(day).padStart(2,'0')}`;
+    const isToday=ds===todayStr, has=ev[ds];
+    html+=`<div style="min-height:48px;border-radius:6px;padding:3px 4px;background:${isToday?'rgba(16,185,129,.12)':has?'rgba(255,255,255,.03)':'transparent'};border:1px solid ${isToday?'rgba(16,185,129,.4)':has?'rgba(255,255,255,.07)':'transparent'}">
+      <div style="font-size:9px;color:${isToday?'#10b981':'#64748b'};font-weight:${isToday?700:400}">${day}</div>
+      ${has?`<div style="display:flex;flex-direction:column;gap:1px;margin-top:1px;font-size:8.5px;line-height:1.3">${ev[ds].slice(0,3).join('')}${ev[ds].length>3?`<span style="color:#475569">+${ev[ds].length-3}</span>`:''}</div>`:''}
+    </div>`;
+  }
+  html+='</div>';
+  el.innerHTML=html;
+}
+/* ─── 연준/거시 뉴스 (Finnhub general + 키워드 필터) ─── */
+async function fetchFedNews(){
+  const el=document.getElementById('fed-news-results'); if(!el)return;
+  if(!finnhubKey){el.innerHTML='<div style="color:#fbbf24;font-size:12px;text-align:center;padding:14px">Finnhub API 키가 필요합니다 — 상단 "주가 API 설정"에서 등록</div>';return;}
+  el.innerHTML='<div style="color:#64748b;font-size:12px;text-align:center;padding:14px"><i class="fa-solid fa-rotate fa-spin"></i> 불러오는 중...</div>';
+  try{
+    const r=await fetch(`https://finnhub.io/api/v1/news?category=general&token=${finnhubKey}`);
+    const data=await r.json();
+    if(!Array.isArray(data)){el.innerHTML='<div style="color:#f87171;font-size:12px">응답 오류</div>';return;}
+    const kw=/fed|fomc|powell|rate cut|rate hike|interest rate|inflation|cpi|treasury|yield|tariff|jobs report|payroll|jerome/i;
+    const filtered=data.filter(n=>kw.test((n.headline||'')+' '+(n.summary||''))).slice(0,12);
+    if(!filtered.length){el.innerHTML='<div style="color:#475569;font-size:12px;text-align:center;padding:14px">연준·거시 키워드 뉴스 없음 (잠시 후 재시도)</div>';return;}
+    el.innerHTML=filtered.map(n=>{
+      const dt=new Date(n.datetime*1000).toLocaleDateString('ko-KR',{month:'short',day:'numeric'});
+      return `<div class="card-hover" style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:9px;padding:10px 12px;cursor:pointer" onclick="window.open('${n.url}','_blank')">
+        <div style="display:flex;gap:8px;align-items:baseline;margin-bottom:3px">
+          <span style="font-size:9px;color:#475569;font-family:'DM Mono',monospace;flex-shrink:0">${dt}</span>
+          <span style="font-size:9px;color:#f87171;flex-shrink:0">${n.source}</span>
+        </div>
+        <div style="font-size:12px;font-weight:600;color:#e2e8f0;line-height:1.4">${n.headline}</div>
+      </div>`;
+    }).join('');
+  }catch(e){el.innerHTML=`<div style="color:#f87171;font-size:12px">⚠ ${e.message}</div>`;}
+}
+
 function initEarningsTab(){
   renderEarnDdayBar();
+  renderMonthCalendar();
   renderEarnClusterTimeline();
   renderEarnUpdateChecklist();
   const noKey=document.getElementById('earn-no-key');
@@ -6804,6 +7031,78 @@ function gsRender(){
   html+=`<div style="font-size:10px;color:#334155;margin-top:6px;line-height:1.6">⚠ 추정치는 공시·가이던스 기반 정성 외삽이며 예측이 아님. 린치: "주가는 결국 이익을 따라간다 — 그래서 스토리가 아니라 스토리의 <b>다음 검증 지점</b>을 보유 근거로 삼아라." 분기 실적마다 경로·서사 갱신 필요.</div>`;
   sec.innerHTML=html;
 }
+})();
+</script>
+
+<script>
+/* ════════════════════ 파이프라인 보드 (tab-9) — 다음 살 것 한 화면 ════════════════════ */
+(function(){
+const PIPELINE=[
+  {tk:'SITM',tier:1,theme:'AI 타이밍칩',bucket:'2027',cash:'수취자',trig:'2027버킷 킬신호 발동 시 즉시 대체. AI capex 동일 자금줄',data:'Q1 +88% YoY · 데이터센터 +158% · Renesas 인수'},
+  {tk:'ACMR',tier:2,theme:'반도체 장비(AI 패키징)',bucket:'2027',cash:'수취자',trig:'CRDO/ALAB 킬 + 중국 리스크 수용 시',data:'Q1 +34% · FY $1.08~1.18B'},
+  {tk:'MU',tier:'관찰',theme:'HBM 메모리',bucket:'2027',cash:'수취자',trig:'지금 매수 X — Stage 3/4 익스텐디드+상관 악화. Q4 2026 HBM4 풀생산서 스팟 안 꺾임(통념붕괴 참)+과열 되돌림 시만',data:'FY26 EPS $58 · HBM 완판 · GPM→81%'},
+  {tk:'OKLO',tier:3,theme:'SMR 에너지',bucket:'2029',cash:'소각(pre-rev)',trig:'IONQ 킬신호 발동 시 2029버킷 대체 후보',data:'NRC + Meta PPA'},
+  {tk:'GEV',tier:'2차수혜',theme:'가스터빈 전력',bucket:'2027',cash:'수취자',trig:'BE 성공 확장 시 — DC 전용 터빈 백로그 공시',data:'온사이트 발전 2차 수혜(BE→GEV)'},
+];
+function injectPipeTab(){
+  const t8=document.getElementById('tab-8');
+  if(!t8||document.getElementById('tab-9'))return;
+  const b=document.createElement('div');
+  b.id='tab-9';b.className='tab-btn';
+  b.style.cssText="padding:14px 20px;font-size:15px;font-family:'Syne',sans-serif";
+  b.textContent='파이프라인';
+  b.onclick=pipeShow;
+  t8.parentNode.appendChild(b);
+  const sec=document.createElement('div');
+  sec.id='tab-content-9';sec.className='tab-content';
+  sec.style.cssText='display:none;max-width:1200px;margin:0 auto;padding:24px 24px 60px;position:relative;z-index:1';
+  document.getElementById('tab-content-8').after(sec);
+  /* 전략단계(7)·성장스토리(8)는 show 함수가 IIFE 스코프라 래핑 불가 → 버튼에 직접 리스너로 tab-9 숨김 */
+  ['tab-7','tab-8'].forEach(id=>{const t=document.getElementById(id);if(t)t.addEventListener('click',function(){const e=document.getElementById('tab-content-9');if(e)e.style.display='none';const x=document.getElementById('tab-9');if(x)x.classList.remove('tab-active');});});
+}
+function pipeHideAll(){for(let i=0;i<10;i++){const e=document.getElementById('tab-content-'+i);if(e)e.style.display='none';const t=document.getElementById('tab-'+i);if(t)t.classList.remove('tab-active');}}
+function pipeShow(){pipeHideAll();const s=document.getElementById('tab-content-9');s.style.display='block';document.getElementById('tab-9').classList.add('tab-active');pipeRender();}
+function pipeRender(){
+  const sec=document.getElementById('tab-content-9');if(!sec)return;
+  const held=(typeof portfolio!=='undefined'?portfolio:[]).map(h=>h.ticker);
+  const bClr=b=>b==='2027'?'#10b981':b==='2028'?'#c9a84c':b==='2029'?'#f87171':'#64748b';
+  const tierBadge=t=>{
+    const c=t===1?'#10b981':t===2?'#c9a84c':t===3?'#f87171':t==='관찰'?'#a78bfa':'#4a9eff';
+    const lbl=typeof t==='number'?(t+'순위'):t;
+    return '<span style="font-size:9px;font-weight:700;padding:2px 8px;border-radius:5px;background:'+c+'20;color:'+c+';border:1px solid '+c+'45">'+lbl+'</span>';
+  };
+  const cashClr=c=>c.indexOf('수취')>=0?'#10b981':'#f5604d';
+  let html=`<div style="margin-bottom:20px">
+    <h2 style="font-family:'Syne',sans-serif;font-size:26px;font-weight:800">파이프라인 보드</h2>
+    <p style="color:#64748b;font-size:13px;margin-top:4px">다음 살 것 — 편입 후보 · 트리거 · 2차 수혜 한 화면 · 워치리스트와 동기화</p>
+  </div>
+  <div class="glass" style="border-radius:16px;padding:14px 18px;margin-bottom:18px;border:1px solid rgba(74,158,255,.14)">
+    <div style="font-size:11px;color:#94a3b8;line-height:1.6">⚙ 규율: ① 편입은 보유 종목 <b>킬신호 발동 → 청산 자본</b>으로만(현금 버퍼 없음). ② 세후 <b>MIN_EDGE 10%p</b> 충족 확인. ③ 같은 확신이면 <b style="color:#10b981">수취자(현금 지금)</b> 우선. ④ 편입 트리거 = "내 보유의 검증 순간" = 2차 수혜 타이밍.</div>
+  </div>`;
+  html+=PIPELINE.map(p=>{
+    const dup=held.indexOf(p.tk)>=0;
+    return `<div class="glass card-hover" style="border-radius:16px;padding:18px 20px;margin-bottom:12px;border:1px solid ${bClr(p.bucket)}22${dup?';opacity:.5':''}">
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px">
+        <span class="mono" style="font-size:18px;font-weight:800;color:#c9a84c">${p.tk}</span>
+        ${tierBadge(p.tier)}
+        <span style="font-size:11px;color:#94a3b8">${p.theme}</span>
+        <span style="font-size:9px;font-weight:700;color:${bClr(p.bucket)}">${p.bucket} 버킷</span>
+        <span style="font-size:9px;font-weight:700;color:${cashClr(p.cash)}">${p.cash}</span>
+        ${dup?'<span style="font-size:9px;color:#10b981;margin-left:auto">✓ 이미 보유</span>':''}
+      </div>
+      <div style="font-size:11px;color:#64748b;margin-bottom:6px">📊 ${p.data}</div>
+      <div style="font-size:11px;color:#e2e8f0;line-height:1.6"><b style="color:${bClr(p.bucket)}">▶ 편입 트리거:</b> ${p.trig}</div>
+    </div>`;
+  }).join('');
+  html+=`<div style="font-size:10px;color:#334155;margin-top:6px;line-height:1.6">⚠ 후보는 정성 추정 — watchlist.md와 수동 동기화. 피셔: "한 발 앞선 자가 가장 싸게 산다" but 보유 종목 킬 전엔 현금 안 빼는 게 우선. PIPELINE_MIN 8종목 유지 권고.</div>`;
+  sec.innerHTML=html;
+}
+window.addEventListener('load',function(){setTimeout(function(){
+  injectPipeTab();
+  if(typeof window.switchTab==='function'){const _o=window.switchTab;window.switchTab=function(i){const e=document.getElementById('tab-content-9');if(e)e.style.display='none';const t=document.getElementById('tab-9');if(t)t.classList.remove('tab-active');_o(i);};}
+  if(typeof window.sxShow==='function'){const _s=window.sxShow;window.sxShow=function(){const e=document.getElementById('tab-content-9');if(e)e.style.display='none';const t=document.getElementById('tab-9');if(t)t.classList.remove('tab-active');_s();};}
+  if(typeof window.gsShow==='function'){const _g=window.gsShow;window.gsShow=function(){const e=document.getElementById('tab-content-9');if(e)e.style.display='none';const t=document.getElementById('tab-9');if(t)t.classList.remove('tab-active');_g();};}
+},450);});
 })();
 </script>
 </body>
