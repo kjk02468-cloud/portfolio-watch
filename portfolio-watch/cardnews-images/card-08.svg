@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#0d0d0d"/>
+    </linearGradient>
+    <linearGradient id="brandGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&amp;family=DM+Mono:wght@400;500&amp;display=swap');
+    text { font-family: 'Noto Sans KR', sans-serif; }
+    .mono { font-family: 'DM Mono', monospace; }
+    .headline { font-size: 52px; font-weight: 800; fill: #ffffff; }
+    .headline-lg { font-size: 60px; font-weight: 800; fill: #ffffff; }
+    .sub { font-size: 28px; font-weight: 400; fill: rgba(255,255,255,0.55); }
+    .label { font-family: 'DM Mono', monospace; font-size: 24px; font-weight: 500; fill: rgba(255,255,255,0.5); letter-spacing: 3px; }
+    .green { fill: #4ade80; }
+    .red { fill: #f87171; }
+    .gold { fill: #fbbf24; }
+    .blue { fill: #60a5fa; }
+    .white { fill: #ffffff; }
+    .dim { fill: rgba(255,255,255,0.45); }
+    .dim2 { fill: rgba(255,255,255,0.6); }
+    .dim3 { fill: rgba(255,255,255,0.35); }
+    .brand-text { font-family: 'DM Mono', monospace; font-size: 22px; fill: rgba(255,255,255,0.4); letter-spacing: 2px; }
+    .card-num { font-family: 'DM Mono', monospace; font-size: 26px; fill: rgba(255,255,255,0.3); }
+    .box-title { font-size: 28px; font-weight: 700; fill: #ffffff; }
+    .box-desc { font-size: 22px; font-weight: 400; fill: rgba(255,255,255,0.5); }
+    .stat-label { font-size: 28px; font-weight: 500; fill: rgba(255,255,255,0.6); }
+    .stat-val { font-family: 'DM Mono', monospace; font-size: 30px; font-weight: 500; }
+    .info-text { font-size: 25px; font-weight: 500; fill: rgba(255,255,255,0.7); }
+    .warn-title { font-size: 25px; font-weight: 700; }
+  </style>
+  <rect width="1080" height="1350" fill="url(#bgGrad)"/>
+  <text x="1020" y="76" text-anchor="end" class="card-num">7/8</text>
+
+  <text x="60" y="90" class="label">WEEKLY SUMMARY</text>
+
+  <text x="60" y="190" class="headline">이번 주를</text>
+  <text x="60" y="260" class="headline"><tspan class="green">한 줄</tspan>로 정리하면.</text>
+
+  <!-- Fed -->
+  <rect x="64" y="320" width="956" height="140" rx="0" fill="rgba(248,113,113,0.08)"/>
+  <rect x="60" y="320" width="4" height="140" fill="#f87171"/>
+  <text x="100" y="362" font-size="27" font-weight="700" fill="#fff"><tspan class="red">Fed:</tspan> "인플레이션은 아직 안 잡혔다"</text>
+  <text x="100" y="400" font-size="23" fill="rgba(255,255,255,0.5)">금리 동결 + 인상 시사 = 매파적 동결.</text>
+  <text x="100" y="432" font-size="23" fill="rgba(255,255,255,0.5)">성장주 밸류에이션 재조정 압력.</text>
+
+  <!-- Nasdaq -->
+  <rect x="64" y="485" width="956" height="140" rx="0" fill="rgba(74,222,128,0.08)"/>
+  <rect x="60" y="485" width="4" height="140" fill="#4ade80"/>
+  <text x="100" y="527" font-size="27" font-weight="700" fill="#fff"><tspan class="green">나스닥100:</tspan> AI·우주 종목 대거 편입</text>
+  <text x="100" y="565" font-size="23" fill="rgba(255,255,255,0.5)">ALAB·RKLB·NBIS 등 5종목 합류.</text>
+  <text x="100" y="597" font-size="23" fill="rgba(255,255,255,0.5)">패시브 자금 구조적 유입 시작.</text>
+
+  <!-- Semiconductor -->
+  <rect x="64" y="650" width="956" height="140" rx="0" fill="rgba(96,165,250,0.08)"/>
+  <rect x="60" y="650" width="4" height="140" fill="#60a5fa"/>
+  <text x="100" y="692" font-size="27" font-weight="700" fill="#fff"><tspan class="blue">반도체:</tspan> Apple-Intel 파운드리 동맹</text>
+  <text x="100" y="730" font-size="23" fill="rgba(255,255,255,0.5)">TSMC 독점 구조에 균열.</text>
+  <text x="100" y="762" font-size="23" fill="rgba(255,255,255,0.5)">Intel +9%, 섹터 YTD +90%.</text>
+
+  <!-- KOSPI -->
+  <rect x="64" y="815" width="956" height="140" rx="0" fill="rgba(251,191,36,0.08)"/>
+  <rect x="60" y="815" width="4" height="140" fill="#fbbf24"/>
+  <text x="100" y="857" font-size="27" font-weight="700" fill="#fff"><tspan class="gold">코스피:</tspan> 서킷브레이커 → 9천선 돌파</text>
+  <text x="100" y="895" font-size="23" fill="rgba(255,255,255,0.5)">11일 만에 7,484 → 9,052.</text>
+  <text x="100" y="927" font-size="23" fill="rgba(255,255,255,0.5)">시총 7,000조, SK하이닉스 2천조.</text>
+
+  <!-- Disclaimer -->
+  <text x="540" y="1020" text-anchor="middle" font-size="22" fill="rgba(255,255,255,0.25)">이 콘텐츠는 투자 권유가 아닙니다.</text>
+  <text x="540" y="1052" text-anchor="middle" font-size="22" fill="rgba(255,255,255,0.25)">개인적 분석이며, 투자 판단은 본인 책임입니다.</text>
+
+  <!-- Brand -->
+  <rect x="470" y="1220" width="42" height="42" rx="11" fill="url(#brandGrad)"/>
+  <text x="491" y="1248" text-anchor="middle" font-size="20">💎</text>
+  <text x="524" y="1247" class="brand-text">JACK1 WEEKLY BRIEF</text>
+</svg>
