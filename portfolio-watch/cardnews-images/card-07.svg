@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#0d0d0d"/>
+    </linearGradient>
+    <linearGradient id="brandGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&amp;family=DM+Mono:wght@400;500&amp;display=swap');
+    text { font-family: 'Noto Sans KR', sans-serif; }
+    .mono { font-family: 'DM Mono', monospace; }
+    .headline { font-size: 52px; font-weight: 800; fill: #ffffff; }
+    .headline-lg { font-size: 60px; font-weight: 800; fill: #ffffff; }
+    .sub { font-size: 28px; font-weight: 400; fill: rgba(255,255,255,0.55); }
+    .label { font-family: 'DM Mono', monospace; font-size: 24px; font-weight: 500; fill: rgba(255,255,255,0.5); letter-spacing: 3px; }
+    .green { fill: #4ade80; }
+    .red { fill: #f87171; }
+    .gold { fill: #fbbf24; }
+    .blue { fill: #60a5fa; }
+    .white { fill: #ffffff; }
+    .dim { fill: rgba(255,255,255,0.45); }
+    .dim2 { fill: rgba(255,255,255,0.6); }
+    .dim3 { fill: rgba(255,255,255,0.35); }
+    .brand-text { font-family: 'DM Mono', monospace; font-size: 22px; fill: rgba(255,255,255,0.4); letter-spacing: 2px; }
+    .card-num { font-family: 'DM Mono', monospace; font-size: 26px; fill: rgba(255,255,255,0.3); }
+    .box-title { font-size: 28px; font-weight: 700; fill: #ffffff; }
+    .box-desc { font-size: 22px; font-weight: 400; fill: rgba(255,255,255,0.5); }
+    .stat-label { font-size: 28px; font-weight: 500; fill: rgba(255,255,255,0.6); }
+    .stat-val { font-family: 'DM Mono', monospace; font-size: 30px; font-weight: 500; }
+    .info-text { font-size: 25px; font-weight: 500; fill: rgba(255,255,255,0.7); }
+    .warn-title { font-size: 25px; font-weight: 700; }
+  </style>
+  <rect width="1080" height="1350" fill="#0d0d0d"/>
+  <text x="1020" y="76" text-anchor="end" class="card-num">6/8</text>
+
+  <text x="60" y="90" class="label">NEXT WEEK</text>
+
+  <text x="60" y="190" class="headline">다음 주</text>
+  <text x="60" y="260" class="headline"><tspan class="gold">반드시 체크할</tspan></text>
+  <text x="60" y="330" class="headline">5가지.</text>
+
+  <!-- Item 1 -->
+  <rect x="60" y="385" width="960" height="110" rx="20" fill="#1a1a1a"/>
+  <rect x="100" y="405" width="40" height="40" rx="10" fill="rgba(74,222,128,0.15)"/>
+  <text x="120" y="433" text-anchor="middle" class="mono" font-size="20" fill="#4ade80">1</text>
+  <text x="160" y="430" font-size="26" font-weight="700" fill="#fff">나스닥100 리밸런싱 첫날 (6/22 월)</text>
+  <text x="160" y="468" font-size="21" fill="rgba(255,255,255,0.45)">ALAB·RKLB·NBIS 편입 후 패시브 자금 유입 확인</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="515" width="960" height="110" rx="20" fill="#1a1a1a"/>
+  <rect x="100" y="535" width="40" height="40" rx="10" fill="rgba(248,113,113,0.15)"/>
+  <text x="120" y="563" text-anchor="middle" class="mono" font-size="20" fill="#f87171">2</text>
+  <text x="160" y="560" font-size="26" font-weight="700" fill="#fff">Fed 위원 발언 모니터</text>
+  <text x="160" y="598" font-size="21" fill="rgba(255,255,255,0.45)">점도표 이후 개별 위원 발언 — 인상 타이밍 힌트</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="645" width="960" height="110" rx="20" fill="#1a1a1a"/>
+  <rect x="100" y="665" width="40" height="40" rx="10" fill="rgba(96,165,250,0.15)"/>
+  <text x="120" y="693" text-anchor="middle" class="mono" font-size="20" fill="#60a5fa">3</text>
+  <text x="160" y="690" font-size="26" font-weight="700" fill="#fff">Apple-Intel 딜 후속 확인</text>
+  <text x="160" y="728" font-size="21" fill="rgba(255,255,255,0.45)">양사 공식 확인 여부 · 계약 규모 · TSMC 반응</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="775" width="960" height="110" rx="20" fill="#1a1a1a"/>
+  <rect x="100" y="795" width="40" height="40" rx="10" fill="rgba(248,113,113,0.15)"/>
+  <text x="120" y="823" text-anchor="middle" class="mono" font-size="20" fill="#f87171">4</text>
+  <text x="160" y="820" font-size="26" font-weight="700" fill="#fff">AI capex 가이던스</text>
+  <text x="160" y="858" font-size="21" fill="rgba(255,255,255,0.45)">금리 인상 시사 후 하이퍼스케일러 투자 계획 변동 여부</text>
+
+  <!-- Item 5 -->
+  <rect x="60" y="905" width="960" height="110" rx="20" fill="#1a1a1a"/>
+  <rect x="100" y="925" width="40" height="40" rx="10" fill="rgba(74,222,128,0.15)"/>
+  <text x="120" y="953" text-anchor="middle" class="mono" font-size="20" fill="#4ade80">5</text>
+  <text x="160" y="950" font-size="26" font-weight="700" fill="#fff">코스피 9천선 안착 여부</text>
+  <text x="160" y="988" font-size="21" fill="rgba(255,255,255,0.45)">급반등 후 차익실현 vs. 추세 지속 — 외국인 순매수 확인</text>
+
+  
+  <rect x="60" y="1280" width="42" height="42" rx="11" fill="url(#brandGrad)"/>
+  <text x="82" y="1308" text-anchor="middle" font-size="20">💎</text>
+  <text x="114" y="1309" class="brand-text">JACK1</text>
+</svg>

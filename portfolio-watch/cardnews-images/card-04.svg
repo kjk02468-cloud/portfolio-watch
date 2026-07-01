@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#0d0d0d"/>
+    </linearGradient>
+    <linearGradient id="brandGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&amp;family=DM+Mono:wght@400;500&amp;display=swap');
+    text { font-family: 'Noto Sans KR', sans-serif; }
+    .mono { font-family: 'DM Mono', monospace; }
+    .headline { font-size: 52px; font-weight: 800; fill: #ffffff; }
+    .headline-lg { font-size: 60px; font-weight: 800; fill: #ffffff; }
+    .sub { font-size: 28px; font-weight: 400; fill: rgba(255,255,255,0.55); }
+    .label { font-family: 'DM Mono', monospace; font-size: 24px; font-weight: 500; fill: rgba(255,255,255,0.5); letter-spacing: 3px; }
+    .green { fill: #4ade80; }
+    .red { fill: #f87171; }
+    .gold { fill: #fbbf24; }
+    .blue { fill: #60a5fa; }
+    .white { fill: #ffffff; }
+    .dim { fill: rgba(255,255,255,0.45); }
+    .dim2 { fill: rgba(255,255,255,0.6); }
+    .dim3 { fill: rgba(255,255,255,0.35); }
+    .brand-text { font-family: 'DM Mono', monospace; font-size: 22px; fill: rgba(255,255,255,0.4); letter-spacing: 2px; }
+    .card-num { font-family: 'DM Mono', monospace; font-size: 26px; fill: rgba(255,255,255,0.3); }
+    .box-title { font-size: 28px; font-weight: 700; fill: #ffffff; }
+    .box-desc { font-size: 22px; font-weight: 400; fill: rgba(255,255,255,0.5); }
+    .stat-label { font-size: 28px; font-weight: 500; fill: rgba(255,255,255,0.6); }
+    .stat-val { font-family: 'DM Mono', monospace; font-size: 30px; font-weight: 500; }
+    .info-text { font-size: 25px; font-weight: 500; fill: rgba(255,255,255,0.7); }
+    .warn-title { font-size: 25px; font-weight: 700; }
+  </style>
+  <rect width="1080" height="1350" fill="#0d0d0d"/>
+  <text x="1020" y="76" text-anchor="end" class="card-num">3/8</text>
+
+  <text x="60" y="90" class="label">NASDAQ-100 REBALANCE</text>
+
+  <text x="60" y="190" class="headline"><tspan class="green">나스닥100</tspan>에</text>
+  <text x="60" y="260" class="headline">새 얼굴 <tspan class="green">5종목</tspan> 합류.</text>
+
+  <text x="60" y="330" class="sub">6월 22일(월) 장 시작 전 적용.</text>
+  <text x="60" y="370" class="sub">패시브 자금 수천억 원 규모 자동 유입 예상.</text>
+
+  <!-- ALAB -->
+  <rect x="60" y="420" width="960" height="100" rx="20" fill="#1a1a1a"/>
+  <text x="100" y="468" font-size="30" font-weight="700" fill="#fff">ALAB</text>
+  <text x="240" y="468" font-size="21" fill="rgba(255,255,255,0.45)">Astera Labs · AI 인터커넥트</text>
+  <text x="920" y="458" text-anchor="end" class="mono" font-size="26" fill="#4ade80">YTD +121%</text>
+  <text x="920" y="490" text-anchor="end" font-size="19" fill="rgba(255,255,255,0.35)">발표 후 +5%</text>
+
+  <!-- RKLB -->
+  <rect x="60" y="536" width="960" height="100" rx="20" fill="#1a1a1a"/>
+  <text x="100" y="584" font-size="30" font-weight="700" fill="#fff">RKLB</text>
+  <text x="240" y="584" font-size="21" fill="rgba(255,255,255,0.45)">Rocket Lab · 우주 발사체</text>
+  <text x="920" y="574" text-anchor="end" class="mono" font-size="26" fill="#4ade80">YTD +64.5%</text>
+  <text x="920" y="606" text-anchor="end" font-size="19" fill="rgba(255,255,255,0.35)">발표 후 +11%</text>
+
+  <!-- NBIS -->
+  <rect x="60" y="652" width="960" height="100" rx="20" fill="#1a1a1a"/>
+  <text x="100" y="700" font-size="30" font-weight="700" fill="#fff">NBIS</text>
+  <text x="240" y="700" font-size="21" fill="rgba(255,255,255,0.45)">Nebius · AI 클라우드 인프라</text>
+  <text x="920" y="700" text-anchor="end" class="mono" font-size="26" fill="#4ade80">YTD +165%</text>
+
+  <!-- CRWV & TER -->
+  <rect x="60" y="772" width="465" height="80" rx="20" fill="#1a1a1a"/>
+  <text x="100" y="822" font-size="28" font-weight="700" fill="#fff">CRWV</text>
+  <text x="260" y="822" font-size="20" fill="rgba(255,255,255,0.45)">CoreWeave</text>
+
+  <rect x="545" y="772" width="475" height="80" rx="20" fill="#1a1a1a"/>
+  <text x="585" y="822" font-size="28" font-weight="700" fill="#fff">TER</text>
+  <text x="720" y="822" font-size="20" fill="rgba(255,255,255,0.45)">Teradyne</text>
+
+  <!-- Green highlight -->
+  <rect x="64" y="890" width="956" height="120" rx="0" fill="rgba(74,222,128,0.08)"/>
+  <rect x="60" y="890" width="4" height="120" fill="#4ade80"/>
+  <text x="100" y="932" class="warn-title green">왜 중요한가?</text>
+  <text x="100" y="970" class="info-text">나스닥100 ETF(QQQ 등) 추종 자금이 자동 매수.</text>
+  <text x="100" y="998" class="info-text">편입 = 수급 구조적 개선.</text>
+
+  
+  <rect x="60" y="1280" width="42" height="42" rx="11" fill="url(#brandGrad)"/>
+  <text x="82" y="1308" text-anchor="middle" font-size="20">💎</text>
+  <text x="114" y="1309" class="brand-text">JACK1</text>
+</svg>

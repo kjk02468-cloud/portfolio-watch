@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#0d0d0d"/>
+    </linearGradient>
+    <linearGradient id="brandGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&amp;family=DM+Mono:wght@400;500&amp;display=swap');
+    text { font-family: 'Noto Sans KR', sans-serif; }
+    .mono { font-family: 'DM Mono', monospace; }
+    .headline { font-size: 52px; font-weight: 800; fill: #ffffff; }
+    .headline-lg { font-size: 60px; font-weight: 800; fill: #ffffff; }
+    .sub { font-size: 28px; font-weight: 400; fill: rgba(255,255,255,0.55); }
+    .label { font-family: 'DM Mono', monospace; font-size: 24px; font-weight: 500; fill: rgba(255,255,255,0.5); letter-spacing: 3px; }
+    .green { fill: #4ade80; }
+    .red { fill: #f87171; }
+    .gold { fill: #fbbf24; }
+    .blue { fill: #60a5fa; }
+    .white { fill: #ffffff; }
+    .dim { fill: rgba(255,255,255,0.45); }
+    .dim2 { fill: rgba(255,255,255,0.6); }
+    .dim3 { fill: rgba(255,255,255,0.35); }
+    .brand-text { font-family: 'DM Mono', monospace; font-size: 22px; fill: rgba(255,255,255,0.4); letter-spacing: 2px; }
+    .card-num { font-family: 'DM Mono', monospace; font-size: 26px; fill: rgba(255,255,255,0.3); }
+    .box-title { font-size: 28px; font-weight: 700; fill: #ffffff; }
+    .box-desc { font-size: 22px; font-weight: 400; fill: rgba(255,255,255,0.5); }
+    .stat-label { font-size: 28px; font-weight: 500; fill: rgba(255,255,255,0.6); }
+    .stat-val { font-family: 'DM Mono', monospace; font-size: 30px; font-weight: 500; }
+    .info-text { font-size: 25px; font-weight: 500; fill: rgba(255,255,255,0.7); }
+    .warn-title { font-size: 25px; font-weight: 700; }
+  </style>
+  <rect width="1080" height="1350" fill="#0d0d0d"/>
+  <text x="1020" y="76" text-anchor="end" class="card-num">8/8</text>
+
+  <!-- Center content -->
+  <rect x="490" y="360" width="100" height="100" rx="28" fill="url(#brandGrad)"/>
+  <text x="540" y="425" text-anchor="middle" font-size="52">💎</text>
+
+  <text x="540" y="530" text-anchor="middle" class="mono" font-size="42" fill="#fff" font-weight="500" letter-spacing="4">JACK1</text>
+
+  <rect x="500" y="565" width="80" height="4" rx="2" fill="#4ade80"/>
+
+  <text x="540" y="630" text-anchor="middle" font-size="30" fill="rgba(255,255,255,0.7)" font-weight="500">매주 증시 핵심만 정리합니다.</text>
+
+  <text x="540" y="700" text-anchor="middle" font-size="26" fill="rgba(255,255,255,0.35)">매일 오전 7:30 증시 뉴스</text>
+  <text x="540" y="740" text-anchor="middle" font-size="26" fill="rgba(255,255,255,0.35)">매일 오후 12:30 기업 분석</text>
+  <text x="540" y="780" text-anchor="middle" font-size="26" fill="rgba(255,255,255,0.35)">매일 오후 6:30 투자 인사이트</text>
+
+  <!-- Tags -->
+  <rect x="180" y="850" width="120" height="44" rx="10" fill="#1a1a1a"/>
+  <text x="240" y="879" text-anchor="middle" font-size="20" fill="rgba(255,255,255,0.5)">#미국주식</text>
+
+  <rect x="316" y="850" width="120" height="44" rx="10" fill="#1a1a1a"/>
+  <text x="376" y="879" text-anchor="middle" font-size="20" fill="rgba(255,255,255,0.5)">#증시뉴스</text>
+
+  <rect x="452" y="850" width="80" height="44" rx="10" fill="#1a1a1a"/>
+  <text x="492" y="879" text-anchor="middle" font-size="20" fill="rgba(255,255,255,0.5)">#Fed</text>
+
+  <rect x="548" y="850" width="140" height="44" rx="10" fill="#1a1a1a"/>
+  <text x="618" y="879" text-anchor="middle" font-size="20" fill="rgba(255,255,255,0.5)">#나스닥100</text>
+
+  <rect x="704" y="850" width="110" height="44" rx="10" fill="#1a1a1a"/>
+  <text x="759" y="879" text-anchor="middle" font-size="20" fill="rgba(255,255,255,0.5)">#반도체</text>
+
+  <rect x="370" y="914" width="110" height="44" rx="10" fill="#1a1a1a"/>
+  <text x="425" y="943" text-anchor="middle" font-size="20" fill="rgba(255,255,255,0.5)">#코스피</text>
+
+  <rect x="496" y="914" width="120" height="44" rx="10" fill="#1a1a1a"/>
+  <text x="556" y="943" text-anchor="middle" font-size="20" fill="rgba(255,255,255,0.5)">#JACK1</text>
+
+  <!-- CTA -->
+  <rect x="330" y="1000" width="420" height="56" rx="16" fill="rgba(74,222,128,0.1)"/>
+  <rect x="330" y="1000" width="420" height="56" rx="16" fill="none" stroke="rgba(74,222,128,0.2)" stroke-width="1"/>
+  <text x="540" y="1036" text-anchor="middle" font-size="24" fill="#4ade80" font-weight="600">팔로우하고 매일 받아보세요</text>
+</svg>
